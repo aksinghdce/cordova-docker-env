@@ -1,4 +1,7 @@
 # Docker container for Cordova development
+Forked from: https://github.com/oren/docker-cordova.git
+
+The following content is available from the forked repository:
 
 ![docker-badge](http://dockeri.co/image/oreng/cordova)
 
@@ -18,8 +21,8 @@ I don't want to install and configure Java, Android SDK, Ant, cordova etc.. life
 
 ## Setup
 
-    git clone git@github.com:oren/docker-cordova.git
-    cd docker-cordova
+    git clone https://github.com/aksinghdce/cordova-docker-env.git
+    cd cordova-docker-env
     docker build -t cordova .
     alias mine='sudo chown -R $USER'
     alias drun='docker run -it --rm'
